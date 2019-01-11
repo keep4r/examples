@@ -1,0 +1,6 @@
+.button_type_raised {
+    box-shadow: $raisedButtonShadow;
+    &:hover {
+        box-shadow: $raisedButtonShadowClick;
+    }
+}

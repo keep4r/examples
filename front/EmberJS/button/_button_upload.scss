@@ -1,0 +1,15 @@
+.button_upload {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    &:not(input):not(button) {
+        justify-content: flex-start;
+    }
+    .global-icon {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

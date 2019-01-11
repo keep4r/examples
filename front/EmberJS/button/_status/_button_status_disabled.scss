@@ -1,0 +1,21 @@
+.button_status_disabled {
+    pointer-events: none;
+    &.button_type_dark {
+        background-color: transparent !important;
+        color: change-color($white, $alpha: .4) !important;
+        &.button_type_raised {
+            box-shadow: none;
+            background: change-color($black, $alpha: .05) !important;
+            color: change-color($black, $alpha: .4) !important;
+        }
+    }
+    &.button_type_light {
+        background-color: transparent !important;
+        color: change-color($black, $alpha: .4) !important;
+        &.button_type_raised {
+            box-shadow: none;
+            background: change-color($white, $alpha: .05);
+            color: change-color($white, $alpha: .4);
+        }
+    }
+}
